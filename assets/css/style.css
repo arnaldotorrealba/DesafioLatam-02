@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Headland One', serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 1200px;
+    color: black;
+    margin: auto;
+}
+
+/* MAIN SECTION */
+
+h1{
+    font-weight: 400;
+    font-size: 4.5rem;
+}
+
+.box-main{
+    background-image: url(../imgs/HalfOrangeandStraw.jpg); 
+    background-size: 75rem 50rem;
+    height: 50rem;
+    display: flex;
+}
+
+.box-discount{
+    margin: 6rem 9rem;
+    text-align: center;
+}
+
+.box-discount > *{
+    margin: 2.5rem;
+}
+
+.box-discount p{
+    font-weight: 400;
+    font-size: 1.375rem;
+}
+
+.btn{
+    background: rgba(217, 217, 217, 0.4);
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    padding: 0.625rem;
+    text-decoration: none;
+    color: black;
+}
+
+.box-discount a{
+    font-weight: 400;
+    font-size: 1.625rem;
+}
+
+.box-discount a:hover{
+    background-color: #F7A400;
+    border: 0.1875rem solid rgba(0, 0, 0, 0.5);
+}
+
+/* SUBSCRIPTION SECTION */
+
+.box-subscription{
+    background-color: #F7A400;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-subscription a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.box-subscription a :hover{
+    font-size: 1.0625rem;
+}
+
+/* PRODUCTS SECTION */
+
+.box-products{
+    display: flex; 
+    height: 23.125rem;
+}
+
+.box-product{
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.box-product img{  
+    width: 100%;
+    height: 100%;
+}
+ 
+.box-product .box-description{
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    text-align: center;
+    color: black;
+}
+
+.box-description > *{   
+    height: 33.33%;
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-description h2{
+    font-size: 1.25rem;
+}
+
+.box-description .text-price{
+    color: #2535C5;
+    text-decoration: double;
+}
+
+/* FOOTER SECTION */
+
+.box-footer{
+    background-color: #F7A400;
+    padding: 0.9375rem;
+    text-align: center;
+}
